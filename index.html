@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="body" id="container">
+    <div class="container" id="abc">
+        <section class="section2">
+            <span class="dot"><div class="center"></div></span>
+            <span class="minuteSpan"><div class="minute hand" id="minute"></div></span>
+            <span class="hourSpan"><div class="hour hand" id="hour"></div></span>
+            <span class="secondSpan"><div class="second hand" id="second"></div></span>
+        </section>  
+
+        <section class="section1">
+            <span class="span12">
+                <div id="clock12">12</div>
+            </span>
+            <span class="span1">
+                <div id="clock1">11</div>
+                <div id="clock11">1</div>
+            </span>
+            <span class="span2">
+                <div id="clock2">10</div>
+                <div id="clock10">2</div>
+            </span>
+            <span class="span3">
+                <div id="clock9">9</div>
+                <div id="clock3">3</div>            
+            </span>
+            <span class="span4">
+                <div id="clock8">8</div>
+                <div id="clock4">4</div>
+            </span>
+            <span class="span5">
+                <div id="clock7">7</div>
+                <div id="clock5">5</div>
+            </span>
+            <span class="span6">
+                <div id="clock6">6</div>
+            </span>
+        </section>
+    </div>
+
+    <div id="current-time"></div>
+    
+    <img src="https://play-lh.googleusercontent.com/uhYhVduil2tS6WAQWw1DctBQ0eO5-Jo7YKK54nRDn5Ks39ktWUiUM34bfg2uYPICvULM" alt="" id="dark" onclick="fun()">
+    <img src="https://cdn0.iconfinder.com/data/icons/weather-969/32/Sun_Warm_Weather-512.png" alt="" id="light" onclick="dark_light()">
+
+    <script src="script.js"></script>
+</body>
+</html>

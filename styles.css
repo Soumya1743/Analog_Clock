@@ -1,0 +1,161 @@
+.body{
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    height: 700px;
+    width: 700px;
+    background-color: white;
+    border-radius: 50%;
+    margin-top: 5%;
+    margin-left: 27%;
+    align-content: center;
+    text-align: center;
+    font-size: 25px;
+    background: conic-gradient(rgb(146, 145, 145), rgb(245, 245, 245), rgb(178, 177, 177),rgb(245, 245, 245), rgb(202, 202, 202),rgb(245, 245, 245), rgb(146, 145, 145));
+    box-shadow: 0px 0px 30px black inset;
+}
+
+#clock12{
+    margin-top: 0%;
+    color: red;
+    font-size: 50px;
+}
+.span1{
+    margin-left: 19%;
+    margin-top: 3%;
+    display: flex;
+    gap: 65%;
+    font-size: 40px;
+}
+.span2{
+    margin-left: 8%;
+    margin-top: 10%;
+    display: flex;
+    gap: 81%;
+    font-size: 40px;
+}
+.span3{
+    margin-left: 5%;
+    margin-top: 10%;
+    display: flex;
+    gap: 89%;
+    color: red;
+    font-size: 50px;
+}
+.span4{
+    margin-left: 9%;
+    margin-top: 10%;
+    display: flex;
+    gap: 83%;
+    font-size: 40px;
+}
+.span5{
+    margin-left: 25%;
+    margin-top: 10%;
+    display: flex;
+    gap: 61%;
+    font-size: 40px;
+}
+#clock6{
+    margin-top: 0%;
+    margin-left: 0px;
+    color: red;
+    font-size: 50px;
+}
+.section1{
+    z-index: 0;
+    position: relative;
+}
+.section2{
+    z-index: 99;
+    position: absolute;
+    margin-top: -500px;
+    translate: -50% -50%;
+    height: 300px;
+    width: 300px;
+    margin-top: 430px;
+    margin-left: 350px;
+}
+.hourSpan{
+    z-index: 99;
+    position: absolute;
+    margin-top: -500px;
+    translate: -50% -50%;
+    height: 300px;
+    width: 300px;
+    margin-top: -31px;
+}
+.minuteSpan{
+    z-index: 99;
+    position: absolute;
+    translate: -50% -50%;
+    height: 300px;
+    width: 300px;
+    margin-top: -100px;
+}
+.dot{
+    z-index: 99;
+    position: absolute;
+    translate: -50% -50%;
+    height: 50px;
+    width: 50px;
+    margin-top: 60px;
+}
+
+.center{
+    height: 50px;
+    width: 50px;
+    background: conic-gradient(gray, white, gray, white, gray, white, gray, white, gray);
+    border-radius: 50%;
+}
+.hand{
+    width: 50%;
+    background: black;
+    position: absolute;
+    top: 50%;
+    transform-origin: 100%;
+    transform: rotate(90deg);
+    transition: all 0.05s;
+}
+.hour{
+    height: 8px;
+    position: absolute;
+    margin-top: 30%;
+    background-color: red;
+}
+
+.minute{
+    height: 4px;
+    position: absolute;
+    margin-top: 53%;
+}
+
+.second{
+    height: 2px;
+    position: relative;
+    margin-top: -30%;
+    background-color: gray;
+}
+
+#dark{
+    height: 70px;
+    width: 70px;
+    float: right;
+    margin-top: -770px;
+    margin-right: 1px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+#light{
+    height: 60px;
+    width: 60px;
+    float: right;
+    margin-top: -760px;
+    margin-right: 7px;
+    border-radius: 50%;
+    background-color: rgb(194, 194, 194);
+    cursor: pointer;
+}
+
